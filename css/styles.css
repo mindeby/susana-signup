@@ -61,5 +61,15 @@ img {
 }
 
 button {
-  background-color: orange;
+  display: inline-block;
+  background: none;
+  border: none;
+}
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  button:active {
+    color: inherit;
 }
