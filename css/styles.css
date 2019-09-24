@@ -19,9 +19,9 @@ body {
 }
 
 h1 {
-  text-align: left;
   font-family: 'playlistscript';
   font-size: 35px;
+  text-align: center;
 }
 
 
@@ -46,9 +46,14 @@ p a {
 img {
   max-width: 900px;
   max-height: 450px;
-  width: 50%;
+  width: 40%;
   margin-right: 20px;
   margin-top: 40px;
+}
+
+.text{
+  max-width: 70%;
+  margin: auto;
 }
 
 
@@ -58,14 +63,17 @@ img {
   max-width: 900px;
   margin: auto;
   margin-top: 40px;
-  display: flex;
+  display: block;
+  text-align: center;
 }
 
 button {
-  width: 140px;
-  height: 45px;
+  width: 160px;
+  height: 65px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 25px;
   font-family: 'Roboto', sans-serif;
-  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -87,27 +95,13 @@ button:hover {
 }
 
 
-@media (max-width: 900px) {
+
+@media (min-width: 900px) {
 
   .container, h1{
-    display: block;
-    text-align: center;
+    display: flex;
+    text-align: left;
   }
-
-  .text{
-    max-width: 70%;
-    margin: auto;
-  }
-
-
-  button {
-    width: 160px;
-    height: 65px;
-    font-size: 14px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-  }
-
 
 
 
