@@ -90,3 +90,28 @@ button:hover {
   color: #fff;
   transform: translateY(-7px);
 }
+
+
+@media (min-width: 700px) {
+
+  .container, h1{
+    display: block;
+    text-align: center;
+  }
+
+  .text{
+    max-width: 70%;
+    margin: auto;
+  }
+
+  img {
+    max-width: 30%;
+  }
+
+  button {
+    margin-top: 25px;
+  }
+
+
+
+}
