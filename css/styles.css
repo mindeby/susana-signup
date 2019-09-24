@@ -104,13 +104,22 @@ button:hover {
     margin: auto;
   }
 
-  img {
-    max-width: 30%;
-  }
 
   button {
     margin-top: 25px;
   }
+
+  body {
+    font-size: 20px;
+  }
+
+  button {
+    width: 160px;
+    height: 65px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
 
 
 
